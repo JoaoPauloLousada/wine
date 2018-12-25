@@ -1,0 +1,15 @@
+{
+  "name": "WineHome",
+  "version": "0.1.0",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "grunt": "~0.4.2",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^4.0.2",
+    "load-grunt-tasks": "~0.2.0",
+    "node-sass": "^4.11.0"
+  }
+}

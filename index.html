@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wine.com.br - Viva o Vinho</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <main class="container">
+        <section class="delivery"></section><!--End delivery-->
+        <header class="main-header">
+            <div class="header-grid">
+                <h1 class="header-logo">
+                    <a href="#">
+                        <img src="assets/images/wine-logo.svg" alt="Wine.com.br - logo">
+                    </a>
+                </h1><!--End header-logo-->
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="#">vinhos</a></li>
+                        <li><a href="#">clube wine</a></li>
+                        <li><a href="#">outras bebidas</a></li>
+                        <li><a href="#">gourmet e acessórios</a></li>
+                    </ul>
+                </nav><!--End header-nav-->
+                <div class="header-search">
+                    <form class="header-form" action="">
+                        <input type="text" placeholder="encontre seu vinho">
+                    </form>
+                </div>
+                <div class="login-button">
+                    <a href="#">
+                        <img src="assets/images/unlogged_customer.svg" alt="botão para ir à área de login">
+                        <p>conta</p>
+                    </a>
+                </div>
+                <div class="header-cart">
+                    <a class="cart" href="#">
+                        <img src="assets/images/cart.png" alt="carrinho de compras">
+                        <span class="items-badge">15</span>
+                    </a>
+                </div>
+            </div><!--End header-grid-->
+        </header><!--End header-->
+
+        <section class="first-slider"></section><!--End first-slider -->
+        
+        <section class="featured-products featured-products--first">
+            <wine-featured-products></wine-featured-products>
+        </section><!--End featured-products--first -->
+        <div class="banner--first">
+            <div class="row banner">
+                <a href="">
+                    <img src="assets/images/banner/banner-1.jpg" alt="">
+                </a>
+            </div>
+        </div><!--End banner--first-->
+        <section class="second-slider">
+            <div class="slide">
+                <div class="slide-center">
+                    <a href="#">
+                        <img src="assets/images/second-slide/vinho-1.png" alt="">
+                    </a>
+                </div>
+                <div class="slide-left">
+                    <h2><span>Harmoniza com:</span> Frango Assado</h2>
+                </div>
+                <div class="slide-right">
+                    <div class="slide-right-content">
+                        <h2>Carlos Reynolds Branco 2017</h2>
+                        <div class="product-info">
+                            <div class="product__country">
+                                <img src="assets/images/countries/portugal.svg" alt="">
+                                <span>África Do Sul</span>
+                            </div>
+                            <div class="product__type">
+                                <span class="product__color product__color--branco"></span>
+                                <span>Branco</span>
+                            </div>
+                        </div>
+                        <div class="rating"></div>
+                        <div class="price price--big">
+                            <div class="price__normal">R$ 79,90</div>
+                            <div class="price__sale"><small>R$</small> 62,90</div>
+                        </div>
+                        <div class="add-cart">
+                            <input type="number" class="quantity" value="1">
+                            <button class="btn btn-primary btn--large">Acidionar</button>
+                        </div>
+                        <div class="price-club">
+                            <p>sócio clube wine paga <span><strong>R$ 53,47</strong></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--End second-slider-->
+        <section class="blog">
+            <header class="blog-header">
+                <div class="banner__blog">
+                    <a href="#">
+                        <img src="assets/images/blog/img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="banner__blog second">
+                    <a href="#">
+                        <img src="assets/images/blog/img-2.jpg" alt="">
+                    </a>
+                </div>
+            </header><!--End blog-header-->
+            <aside class="blog-aside">
+                <a href="#">
+                    <img src="assets/images/blog/img-3.jpg" alt="">
+                </a>
+            </aside><!--End blog-aside-->
+            <section class="blog-articles">
+                <article class="blog-article first">
+                    <header>
+                        <a href="#">
+                            <img src="assets/images/blog/img-4.jpg">
+                        </a>
+                    </header>
+                    <div class="article-sumary">
+                        <h3>por indicação</h3>
+                        <a href="#"><h2>Seleção de Espumantes</h2></a>
+                        <p>Os melhores vinhos borbulhantes para você brindar a época mais festiva do ano.</p>
+                        <a href="#" class="action">confira</a>
+                    </div>
+                </article>
+                <article class="blog-article second">
+                    <header>
+                        <a href="#">
+                            <img src="assets/images/blog/img-4.jpg">
+                        </a>
+                    </header>
+                    <div class="article-sumary">
+                        <h3>por indicação</h3>
+                        <a href="#"><h2>Seleção de Espumantes</h2></a>
+                        <p>Os melhores vinhos borbulhantes para você brindar a época mais festiva do ano.</p>
+                        <a href="#" class="action">confira</a>
+                    </div>
+                </article>
+                <article class="blog-article third">
+                    <header>
+                        <a href="#">
+                            <img src="assets/images/blog/img-4.jpg">
+                        </a>
+                    </header>
+                    <div class="article-sumary">
+                        <h3>por indicação</h3>
+                        <a href="#"><h2>Seleção de Espumantes</h2></a>
+                        <p>Os melhores vinhos borbulhantes para você brindar a época mais festiva do ano.</p>
+                        <a href="#" class="action">confira</a>
+                    </div>
+                </article>
+                <article class="blog-article fourth">
+                    <header>
+                        <a href="#">
+                            <img src="assets/images/blog/img-4.jpg">
+                        </a>
+                    </header>
+                    <div class="article-sumary">
+                        <h3>por indicação</h3>
+                        <a href="#"><h2>Seleção de Espumantes</h2></a>
+                        <p>Os melhores vinhos borbulhantes para você brindar a época mais festiva do ano.</p>
+                        <a href="#" class="action">confira</a>
+                    </div>
+                </article>
+            </section><!--End blog-articles-->    
+        </section><!--End blog-->
+        <section class="featured-products featured-products--second">
+
+            <div class="row">
+                <header class="header-featured-products">
+                    <ul>
+                        <li class="featured-options--active"><a href="#">Fantinel</a></li>
+                        <li class="featured-options"><a href="#">Terrazas de los Andes</a></li>
+                        <li class="featured-options"><a href="#">Nederburg</a></li>
+                        <li class="featured-options"><a href="#">Calyptra</a></li>
+                    </ul>
+                </header>
+            </div>
+            <div class="row products">
+                <div class="single-product">
+                    <img src="./assets/images/second-featured/img-1.png" alt="">
+                    <h2 class="product__title">Nederburg 56 Hundred Chenin Blanc 2017</h2>
+                    <div class="product-info">
+                        <div class="product__country">
+                            <img src="" alt="">
+                            <span></span>
+                        </div>
+                        <div class="product__type">
+                            <span class="product__color product__color"></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <div class="price">
+                            <div class="price__normal">R$ 40,00</div>
+                            <div class="price__sale">R$ 33,00</div>
+                        </div>
+                        <button class="btn btn-primary">Adicionar</button>
+                    </div>
+                </div>
+                <div class="single-product">
+                    <img src="./assets/images/second-featured/img-2.png" alt="">
+                    <h2 class="product__title">5 Oros Vendimia Seleccionada D.O.Ca. Rioja 2016</h2>
+                    <div class="product-info">
+                        <div class="product__country">
+                            <img src="assets/images/countries/italia.svg" alt="">
+                            <span>Itália</span>
+                        </div>
+                        <div class="product__type">
+                            <span class="product__color product__color--espumante"></span>
+                            <span>Espumante</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                            <div class="price">
+                                <div class="price__normal">$ 109,00</div>
+                                <div class="price__sale">R$ 84,90</div>
+                            </div>
+                            <button class="btn btn-primary">Adicionar</button>
+                    </div>
+                </div>
+                <div class="single-product">
+                    <img src="./assets/images/second-featured/img-3.png" alt="">
+                    <h2 class="product__title">Espumante Château Beausoleil Reserve A.O.C. Crémant ...</h2>
+                    <div class="product-info">
+                        <div class="product__country">
+                            <img src="assets/images/countries/italia.svg" alt="">
+                            <span>Itália</span>
+                        </div>
+                        <div class="product__type">
+                            <span class="product__color product__color--espumante"></span>
+                            <span>Espumante</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <div class="price">
+                            <div class="price__normal">$ 65,00</div>
+                            <div class="price__sale">R$ 51,94</div>
+                        </div>
+                        <button class="btn btn-primary">Adicionar</button>
+                    </div>
+                </div>
+                <div class="single-product">
+                    <img src="./assets/images/second-featured/img-4.png" alt="">
+                    <h2 class="product__title">Dancing Bull Califórnia Zinfandel 2015</h2>
+                    <div class="product-info">
+                        <div class="product__country">
+                            <img src="assets/images/countries/italia.svg" alt="">
+                            <span>Itália</span>
+                        </div>
+                        <div class="product__type">
+                            <span class="product__color product__color--espumante"></span>
+                            <span>Espumante</span>
+                        </div>
+                    </div>
+                    <div class="product-actions">
+                        <div class="price">
+                            <div class="price__normal">R$ 108,00</div>
+                            <div class="price__sale">R$ 91,90</div>
+                        </div>
+                        <button class="btn btn-primary">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section><!--End featured-products-second-->
+        <footer class="main-footer">
+            <section class="footer-nav">
+                <div class="row nav-content">
+                    <div class="col">
+                        <ul>
+                            <li><a href="#">Loja</a></li>
+                            <li><a href="#">Vinhos</a</li>
+                            <li><a href="#">Outras bebidas</a></li>
+                            <li><a href="#">Gourmet</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><a href="#">Clube Wine</a></li>
+                            <li><a href="#">Como funciona</a></li>
+                            <li><a href="#">Clube Wine gift</a></li>
+                            <li><a href="#">Prime</a></li>
+                            <li><a href="#">Indique Amigos</a></li>
+                            <li><a href="#">Essenciais</a></li>
+                            <li><a href="#">Surpreendentes</a></li>
+                            <li><a href="#">Notáveis</a></li>
+                            <li><a href="#">Singulares</a></li>
+                            <li><a href="#">Refrescantes</a></li>
+                            <li><a href="#">Espumantes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><a href="#">Minha conta</a></li>
+                            <li><a href="#">Dados pessoais</a></li>
+                            <li><a href="#">Pedidos</a></li>
+                            <li><a href="#">Cartões</a></li>
+                            <li><a href="#">Endereços</a></li>
+                            <li><a href="#">Assine o clube</a></li>
+                            <li><a href="#">Favoritos</a></li>
+                            <li><a href="#">Cupons</a></li>
+                            <li><a href="#">Presentes</a></li>
+                            <li><a href="#">Indique amigos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><a href="#">conheça também</a></li>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Trabalhe na Wine</a></li>
+                            <li><a href="#">Beer</a></li>
+                            <li><a href="#">Wine Eventos</a></li>
+                            <li><a href="#">Wine2B</a></li>
+                            <li><a href="#">Winepedia</a></li>
+                            <li><a href="#">Team Wine</a></li>
+                            <li><a href="#">Lojas oficiais</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li><a href="#">Central de ajuda</a></li>
+                            <li><a href="#">Perguntas frequentes</a></li>
+                            <li><a href="#">Formas de pagamento</a></li>
+                            <li><a href="#">Taxa de entrega</a></li>
+                            <li><a href="#">Prazo de entrega</a></li>
+                            <li><a href="#">Troca e devolução</a></li>
+                            <li><a href="#">Política de validade</a></li>
+                            <li><a href="#">Clube Wine</a></li>
+                            <li><a href="#">Mais informações</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </section>
+
+            <section class="row footer">
+                <div class="address">
+                    <a href="#">
+                        <img src="assets/images/wine-logo.svg" alt="Logo Wine">
+                    </a>
+                    <address>
+                        <strong>W2W E-Commerce de Vinhos S.A</strong>
+                        <p>R. Comendador Alcides Simão Helou, nº 1478</p>
+                        <p>Serra - ES - CEP 29168-090</p>
+                        <p>CNPJ: 09.813.204/0002-05</p>
+                    </address>
+                </div>
+            </section>
+        </footer><!--End footer-->
+    </main>
+    <script src="./assets/js/wine-compoents/mycomponent.js"></script>
+</body>
+</html>
