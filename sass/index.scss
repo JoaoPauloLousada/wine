@@ -3,7 +3,6 @@
     src: url('./../fonts/robotoSlab/RobotoSlab-Thin.ttf');
     font-weight: lighter;
 }
-
 $font-primary: Arial, Helvetica, sans-serif;
 $hover-primary: #e43fa0;
 
@@ -26,7 +25,8 @@ body {
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 40px 70px 300px /*495px*/ 1fr 250px /*605px*/ 1fr 900px 495px 1fr;
+    grid-template-rows: 40px 70px 300px 1fr 250px 1fr 900px 495px 1fr;
+    grid-template-columns: 100%;
     grid-template-areas: 
         "delivery"
         "main-header"
@@ -65,6 +65,7 @@ body {
 }
 .delivery {
     background: #dfab1c url(./../images/topo-frete-home-13-dez.gif) no-repeat center center;
+    width:100%;
     grid-area: delivery;
     display: flex;
     justify-content: center;
